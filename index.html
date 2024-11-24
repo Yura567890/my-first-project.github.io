@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-послуги</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="registration-modal" class="modal">
+        <div class="modal-content">
+            <h2>Реєстрація</h2>
+            <p>Будь ласка, введіть свої дані, щоб почати користуватися нашим сайтом.</p>
+            <form id="registration-form">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Зареєструватися</button>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <h1>Інтернет для всіх</h1>
+        <p>Швидкий, стабільний та доступний інтернет для дому та бізнесу</p>
+        <img src="base.jpg" alt="Інтернет фото"  height="400" width="700"/>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#services">Послуги</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Ласкаво просимо!</h2>
+            <p>Ми надаємо сучасні інтернет-рішення для вашого дому та офісу. Забезпечуємо безперебійну роботу і максимальну швидкість, щоб ви завжди залишалися онлайн.</p>
+            <img src="base4.jpg" alt="Фото послуг" class="section-img" width=" 400" height="400">
+        </section>
+        <section id="about">
+            <h2>Про нас</h2>
+            <p>Наша компанія працює з 2010 року і є лідером на ринку інтернет-послуг. Ми обслуговуємо тисячі клієнтів, пропонуючи найкращі тарифи та підтримку. Наша мета – зробити інтернет доступним для кожного.</p>
+            <img src="base2.jpg" alt="Фото про нас" class="section-img" width=" 500" height="400">
+        </section>
+        <section id="services">
+            <h2>Наші послуги</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Послуга</th>
+                        <th>Опис</th>
+                        <th>Ціна (грн)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Домашній інтернет</td>
+                        <td>Швидкість до 1 Гбіт/с для вашого комфорту.</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Бізнес-інтернет</td>
+                        <td>Оптимальні рішення для підприємств.</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Оптоволоконний інтернет</td>
+                        <td>Найсучасніша технологія для стабільності.</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>Wi-Fi мережі</td>
+                        <td>Налаштування надійних бездротових мереж.</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>ІТ-сервіс</td>
+                        <td>Консультації та технічна підтримка.</td>
+                        <td>200</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p>Зв'яжіться з нами:</p>
+            <p>Телефон: <strong>+380 123 456 789</strong></p>
+            <p>Email: <strong>support@internet.com</strong></p>
+            <p>Адреса: вул. Технологій, 5, м. Київ</p>
+            <img src="base5.png" alt="Фото контактів" width=" 50" height="40" >
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Інтернет для всіх. Усі права захищено.</p>
+    </footer>
+
+
+    <section id="cart">
+        <h2>Ваш кошик</h2>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Товар</th>
+                    <th>Кількість</th>
+                    <th>Дії</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Обрані товари з’являтимуться тут -->
+            </tbody>
+        </table>
+        <button id="checkout-button">Оформити замовлення</button>
+    </section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

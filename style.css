@@ -1,0 +1,159 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Стилі для header з градієнтом */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('header.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px; /* Відступи для покращеного вигляду */
+    border-bottom: 3px solid #005bb5; /* Легка лінія внизу */
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 2px; /* Простір між літерами для кращого вигляду */
+}
+
+header p {
+    font-size: 1.3em;
+    margin: 10px 0;
+    font-weight: 500; /* Зробить текст більш виразним */
+}
+
+/* Стилі для навігації */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #005bb5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь для навігації */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    display: block;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Плавний перехід */
+}
+
+nav ul li a:hover {
+    background-color: #004494;
+    transform: scale(1.05); /* Легка анімація при наведенні */
+}
+
+/* Загальні стилі для секцій */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Плавне переміщення */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Легка анімація на наведенні */
+}
+
+/* Покращене форматування таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #0078d7;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Загальні стилі для фото */
+.section-img, .header-img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+/* Стилі для футера */
+footer {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.1em;
+    letter-spacing: 1px; /* Простір між літерами */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Тінь на верху футера */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Модальне вікно */
+.modal-content button:hover {
+    background-color: #005bb5;
+    transform: scale(1.1); /* Легка анімація при наведенні */
+}
+
+/* Анімація для текстів в секціях */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+    transition: transform 0.3s ease; /* Плавне зростання */
+}
+
+h2:hover {
+    transform: scale(1.1); /* Легка анімація на наведенні */
+}
+
+
+
+
